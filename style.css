@@ -15,13 +15,14 @@ html {
 }
 
 body {
-	font-family: "Lucida Console", Monaco, monospace;
+	font-family: Verdana, Geneva, sans-serif;
 	line-height: 1.88889;
-	color: #022647;
-	background: #fff url(building.jpg) no-repeat bottom right;
+	color: #000;
 	margin: 0;
 	padding: 0;
 }
+
+
 
 p {
 	margin-top: 0;
@@ -32,19 +33,19 @@ h3 {
 	font: italic normal;
 	letter-spacing: 1px;
 	margin-bottom: 0;
-	color: #5c7d75;
+	color: #804000;
 }
 
 a:link {
 	font-weight: bold;
 	text-decoration: none;
-	color: #f5c36f;
+	color: #265897;
 }
 
 a:visited {
 	font-weight: bold;
 	text-decoration: none;
-	color: #f48866;
+	color: #551a8b;
 }
 
 a:hover, a:focus, a:active {
@@ -56,9 +57,50 @@ abbr {
 	border-bottom: none;
 }
 
-.page-wrapper {
-	background: url(rustyblue.jpg) no-repeat top left;
-	padding: 0 175px 0 110px;
-	margin: 0;
-	position: relative;
+html {
+  background: url(bluebg3.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header h1 {
+	text-align: center;
+	color: #804000;
+}
+
+header h2 {
+	text-align: center;
+	color: #804000;
+}
+
+.summary p {
+	text-align: center;
+}
+
+.preamble {
+	padding-left: 10px;
+	margin-bottom: 40px;
+	padding-right: 10px;
+}
+
+.supporting {
+	padding-left: 10px;
+	margin-bottom: 40px;
+	padding-right: 10px;
+}
+
+footer {
+	text-align: center;
+}
+footer a:link, footer a:visited {
+	margin-right: 20px;
+}
+
+.extra1 {
+	top: 40px;
+	right: 0;
+	width: 148px;
+	height: 110px;
 }
